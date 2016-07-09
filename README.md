@@ -1,6 +1,5 @@
 # DRWPSurv-package
  This package implements the DRWPSurv method which predicts survival outcome using topologically inferred pathway activities.
-
 # Details
 
 Package: DRWPSurv
@@ -22,7 +21,6 @@ Depends: igraph, Matrix, survival, glmnet
 Description: This package implements the DRWPSurv method which predicts survival outcome using topologically infe
 
 License: GPL(>=2)
-
 # Index of help topics:
 
 DRW:       Directed Random Walk
@@ -44,7 +42,6 @@ pathSet:      Pathway set
 predict.DRWPSurv:      Make predictions from a "DRWPSurv" object
 
 survData:      Survival data
-
 # Examples
 
 data(dGMMirGraph)
