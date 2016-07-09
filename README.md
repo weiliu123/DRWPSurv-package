@@ -1,6 +1,8 @@
 # DRWPSurv-package
  This package implements the DRWPSurv method which predicts survival outcome using topologically inferred pathway activities.
+
 # Details
+
 Package: DRWPSurv
 
 Type: Package
@@ -22,17 +24,29 @@ Description: This package implements the DRWPSurv method which predicts survival
 License: GPL(>=2)
 
 # Index of help topics:
+
 DRW:       Directed Random Walk
+
 DRWPSurv-package:       Predicting survival outcome using pathway activities
+
 dGMMirGraph:      The global pathway graph
+
 fit.DRWPSurv:      Fit a Lasso-Cox model using DRWPSurv
+
 getPathActivity:      Inferring pathway activity
+
 getW:      Calculating the weights of genes
+
 mRNA_matrix:      The expression data
+
 pathSet:      Pathway set
+
 predict.DRWPSurv:      Make predictions from a "DRWPSurv" object
+
 survData:      Survival data
+
 # Examples
+
 data(dGMMirGraph)
 
 data(pathSet)
